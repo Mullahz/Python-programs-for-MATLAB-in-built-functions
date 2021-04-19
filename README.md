@@ -3,4 +3,5 @@
 First one is "im2col" and "col2im" for block size 16 i.e. [16, 16]'''
 
  col_mtx = im2col(image, blk_size)
+ 
  res_img = col2im(col_mtx, image, blk_size)
